@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TravelGo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h2>✈ TravelGo</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="packages.html">Packages</a>
+        <a href="adventures.html">Adventures</a>
+        <a href="hotels.html">Hotels</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+<section class="page-title"><h1>Contact Us</h1><p>Let's plan your next adventure!</p></section>
+<main class="content">
+    <h2>Send Us a Message</h2>
+    <form onsubmit="event.preventDefault(); alert('Thank you for your enquiry! This is a demo form.');">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="place">Destination</label>
+        <select id="place" required>
+            <option value="">Choose a destination</option>
+            <option>Goa</option>
+            <option>Agra</option>
+            <option>Himalayas</option>
+            <option>Dubai</option>
+            <option>Other</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Write your message" required></textarea>
+
+        <button type="submit" class="btn">Submit</button>
+    </form>
+    <br>
+    <h2>Contact Information</h2>
+    <p>Email: hello@travelgo.example</p>
+    <p>Phone: +91 98765 43210 (sample number)</p>
+</main>
+<footer><p>© 2026 TravelGo</p></footer>
+</body>
+</html>
